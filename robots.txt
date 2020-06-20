@@ -65,5 +65,6 @@ Disallow: /
 # Allow other bots to access content
 
 User-agent: *
+Disallow /index.html
 Disallow: /common/
 Disallow: /error/
