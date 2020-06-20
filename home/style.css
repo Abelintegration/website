@@ -1,0 +1,215 @@
+/* Header content */
+header {
+	width: 100%;
+	min-height: calc(100vh - 145px);
+}
+
+
+/* Main logo */
+#page-logo {
+	margin-top: 140px;
+
+	font-family: "Ubuntu";
+	text-align: center;
+}
+
+#page-logo h1 {
+	margin: 0;
+
+	color: rgb(40, 40, 40);
+	font-size: 60px;
+}
+
+#page-logo span {
+	all: inherit;
+	display: inline-block;
+}
+
+
+/* Logo Animation */
+#page-logo span:first-child {
+	animation: Logo-Split-Abel 1.2s ease .6s;
+	animation-fill-mode: forwards;
+}
+
+#page-logo span:last-child {
+	animation: Logo-Split-Integration 1.2s ease .6s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes Logo-Split-Abel {
+	from {
+		margin-right: 0;
+		color: rgb(40, 40, 40);
+	}
+	to {
+		margin-right: 10px;
+		color: rgb(47, 72, 104);
+	}
+}
+
+@keyframes Logo-Split-Integration {
+	from {
+		margin-left: 0;
+	}
+	to {
+		margin-left: 10px;
+	}
+}
+
+
+/* Intro cards */
+#intro-cards {
+	display: flex;
+	flex-wrap: wrap;
+
+	justify-content: center;
+
+	margin-top: 120px;
+	margin-bottom: 160px;
+
+	width: 100%;
+	height: auto;
+}
+
+.intro-card {
+	margin: 30px 30px;
+
+	width: 475px;
+	min-height: 250px;
+
+	text-decoration: none;
+
+	background: rgb(180, 180, 182);
+	border-radius: 8px;
+
+	box-shadow: 2px 2px 5px rgb(100, 102, 106);
+}
+
+.intro-card h2 {
+	display: inline-block;
+
+	margin: 24px 0 0 34px;
+
+	color: rgb(50, 50, 50);
+	font-family: "Ubuntu";
+	font-size: 24px;
+}
+
+.intro-card p {
+	margin: 25px 50px;
+
+	color: rgb(55, 56, 60);
+	font-family: "Raleway";
+	text-indent: 22px;
+	line-height: 1.5rem;
+}
+
+
+/* Page content */
+main {
+	padding-bottom: 180px;
+
+	width: 100%;
+	height: auto;
+
+	background: rgb(205, 205, 205);
+}
+
+
+/* Page content title */
+#content-title {
+	margin: 10px 6px;
+	padding: 10px 0 0 0;
+
+	height: 50px;
+
+	color: rgb(40, 40, 40);
+	font-family: "Ubuntu";
+}
+
+#content-title a {
+	float: left;
+	margin: 7px 10px;
+
+	color: rgb(150, 150, 150);
+	font-size: 32px;
+	text-decoration: none;
+}
+
+#content-title a:hover {
+	color: rgb(110, 110, 110);
+}
+
+#content-title h1 {
+	float: left;
+	margin: 3px 0 0 0;
+
+	font-size: 38px;
+}
+
+
+/* Card container */
+#cards {
+	display: flex;
+	flex-wrap: wrap;
+
+	width: 100%;
+	height: auto;
+}
+
+
+/* Content card */
+.card {
+	margin: 30px auto 0 auto;
+
+	width: 415px;
+	height: 245px;
+
+	font-family: "Ubuntu";
+	text-decoration: none;
+
+	background: rgb(190, 190, 192);
+	border-radius: 6px;
+
+	box-shadow: 2px 2px 3px rgb(110, 112, 116);
+}
+
+.card:hover img {
+	filter: invert(0.1);
+}
+
+.card-img-container {
+	display: flex;
+
+	height: 150px;
+
+	border-bottom: 2px solid rgb(165, 166, 170);
+}
+
+.card-img-container img {
+	margin: auto;
+	height: 80%;
+
+	filter: invert(0.5);
+
+	transition: filter 0.2s;
+}
+
+.card-text {
+	width: 100%;
+}
+
+.card-text h2 {
+	margin: 0;
+	padding: 12px 0 10px 24px;
+
+	color: rgb(40, 40, 40);
+}
+
+.card-text p {
+	margin: 0;
+	padding: 2px 36px;
+
+	color: rgb(70, 70, 70);
+}

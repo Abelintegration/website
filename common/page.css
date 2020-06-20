@@ -1,0 +1,94 @@
+/* For individual page content */
+
+
+html, body {
+	height: 100%;
+}
+
+
+/* Page title */
+header {
+	width: 100%;
+}
+
+header h1 {
+	margin: 50px 0 20px 14%;
+	padding: 0 0 40px 1%;
+
+	max-width: 700px;
+
+	color: rgb(45, 45, 45);
+	font-family: "Ubuntu";
+	font-size: 48px;
+
+	border-bottom: 3px solid rgb(190, 190, 190);
+}
+
+
+/* Page content */
+main {
+	margin: 0 0 180px 0;
+	padding-top: 40px;
+
+	min-height: calc(100% - 448px);
+
+	color: rgb(20, 20, 20);
+}
+
+main p {
+	margin: 0 0 2.2rem 15%;
+
+	max-width: 700px;
+
+	font-family: "Open Sans";
+	font-size: 18px;
+	line-height: 1.6rem;
+}
+
+main ul {
+	margin: -1.6rem 0 2rem 15%;
+
+	max-width: 700px;
+}
+
+main li {
+	margin-top: 1rem;
+
+	font-family: "Open Sans";
+	font-size: 18px;
+	line-height: 1.7rem;
+}
+
+main table {
+	margin: 0 0 2.2rem 15%;
+
+	max-width: 850px;
+
+	border-collapse: collapse;
+
+	font-family: "Open Sans";
+	font-size: 17px;
+}
+
+main table > thead {
+	background: rgb(205, 205, 205);
+}
+
+main table > thead th {
+	min-width: 200px;
+	height: 40px;
+
+	color: rgb(30, 30, 30);
+	font-size: 18px;
+
+	border-left: 2px solid rgb(205, 205, 205);
+	border-right: 2px solid rgb(205, 205, 205);
+}
+
+main table > tbody td {
+	min-width: 200px;
+	padding: 8px;
+
+	border: 2px solid rgb(180, 180, 180);
+	border-top: none;
+}
