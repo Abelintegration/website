@@ -1,1 +1,2 @@
-error
+# Ignore error pages
+error/*.html
