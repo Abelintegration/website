@@ -1,0 +1,30 @@
+:def title
+Cloud
+:end
+
+
+:def content
+			<p>
+				"Cloud Computing" is a general term that denotes a service
+				provided by a service provider, typically accessed via the
+				Internet. For example, this website is hosted by an ISP
+				(Internet Service Provider) and is available via the internet.
+				Cloud also includes services that are hosted by and ISP, that
+				are exclusively available to your company via a Virtual Private
+				Network (VPN) connection. The type of services can vary from
+				full server environments to specific services like a storage
+				archive or a website.
+			</p>
+			<p>
+				When discussing cloud computing, it is often helpful to
+				differentiate what service(s) are needed, and whether the
+				hosting environment is private (available only from your
+				corporate network), or public (offering services to external
+				users via the Internet).
+			</p>
+			<p>
+				The attraction of Cloud Computing is that you only pay for what
+				you use, and you are able to scale up or down based on the
+				current demand.
+			</p>
+:end

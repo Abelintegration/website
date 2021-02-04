@@ -1,0 +1,32 @@
+:def title
+End-User Devices
+:end
+
+
+:def content
+			<p>
+				The organization leadership must understand the risks and costs
+				as well as the estimated ROI for providing remote or mobile
+				access. Technology evolution has changed the access platform
+				from a terminal, to a variety of devices with varying
+				capabilities and screen sizes.
+			</p>
+			<p>
+				Company issued laptops are a common solution to remote access,
+				but limit the ability of employees to "work from anywhere." End
+				users want to access their files from anywhere, anytime, from
+				any device. This is becoming more possible, but brings added
+				complexity and risk. The organization needs a documented policy
+				on what is permitted, and the user's responsibilities. A
+				"Remote/Mobile User Agreement" is usual, signed by the user and
+				kept with the employee's HR records.
+			</p>
+			<p>
+				Most organizations also require an "App" for personal
+				smartphones connecting to the corporate network. The App will
+				create a sandbox on the smartphone where all corporate documents
+				are stored. If the employee leaves the company, the sandbox is
+				removed, removing all corporate information from the user's
+				device.
+			</p>
+:end

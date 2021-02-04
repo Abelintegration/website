@@ -1,0 +1,26 @@
+:def title
+Virtualization Metadata
+:end
+
+
+:def content
+			<p>
+				As computer hardware increased in capability, virtualization
+				emerged to take advantage of unused CPU cycles with moderate
+				additional expense. Virtualization extended the life of many
+				data centers which were near capacity for power and cooling by
+				reducing the physical server footprint. As traditional IT
+				departments became familiar with and deployed virtualization for
+				their internal servers, they learned the core conceptual
+				framework to begin using cloud hosting for new services or
+				on-demand surge processing.
+			</p>
+			<p>
+				From an operational perspective, virtualization reduces cost and
+				increases flexibility in work load distribution. However,
+				organizations have to remember to maintain copies of their
+				virtual metadata (VM configurations, network connections,
+				environment capabilities, etc.) for reference and use in a
+				disaster recovery scenario.
+			</p>
+:end

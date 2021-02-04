@@ -1,0 +1,17 @@
+:def title
+Enterprise Technical Architecture
+:end
+
+
+:def content
+			<p>
+				Enterprise Technical Architecture (ETA) defines the technologies
+				that are used to build the IT environment that supports the
+				Enterprise Architecture. It also defines the controls that
+				maintain the business segmentation as defined by the Enterprise
+				Architecture. The ETA is a supporting framework for the EA and
+				must refine the EA into appropriate technical frameworks that
+				provide the flexibility and security needed to operate the
+				business.
+			</p>
+:end

@@ -1,0 +1,26 @@
+:def title
+Containers
+:end
+
+
+:def content
+			<p>
+				Container platforms such as Docker are lightweight hosting
+				environments for applications. When the application package is
+				assembled, it includes all the application modules, libraries,
+				and system code needed to run the application within a
+				container. The container is executed within the container engine
+				which runs directly on the server's operating system (OS).
+				Multiple containerized applications run within the container
+				engine on one OS. This reduces the overhead compared to
+				virtualization, which runs a kernel that hosts multiple virtual
+				machines (VMs), each VM runs its own OS and subsequent
+				applications built for that OS.
+			</p>
+			<p>
+				Using Containers, a company can reduce the number of OS
+				instances running on the server, which reduces the load on the
+				server hardware. It also may reduce cost by reducing the number
+				of OS licenses needed in the environment.
+			</p>
+:end

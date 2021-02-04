@@ -1,0 +1,47 @@
+:def title
+Compute
+:end
+
+
+:def content
+			<p>
+				Servers used to be semi-autonomous, each containing the
+				resources needed to perform a specific task (provide an
+				application, file storage, etc.). However, they were configured
+				for peak loads which left significant processing resources
+				un-used.
+			</p>
+			<p>
+				Virtualization has almost eliminated the traditional bastion
+				host, and instead offers resources on-demand for virtual
+				workloads. However, virtualization brings complexity along with
+				flexibility. For example, virtual hosts can be clustered to
+				allow workloads to move around within a cluster, including
+				automated reconstitution of services should a single host fail.
+				However, automated failover rules have to be established as part
+				of the configuration:
+			</p>
+			<ul>
+				<li>
+					What services are allowed to migrate to another server in
+					the cluster?
+				</li>
+				<li>
+					What are the priority services?
+				</li>
+				<li>
+					Will there be reserved capacity to accommodate a node
+					failure, or will we shutdown lower priority services?
+				</li>
+			</ul>
+			<p>
+				The failure scenarios and recovery priorities & procedures
+				should be considered and documented in a Runbook for the
+				operational staff to reference in the event of a failure.
+				Capacity planning has to account for the normal load, surge
+				processing, and also for different failure and failover
+				capabilities to keep the business functioning at a planned
+				service level in the event of a natural or human-caused
+				disaster.
+			</p>
+:end

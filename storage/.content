@@ -1,0 +1,33 @@
+:def title
+Storage
+:end
+
+
+:def content
+			<p>
+				Directly attached storage (DAS), as the name implies, is plugged
+				into and controlled by a server. It is dedicated to the server
+				and originally held the operating system and all applications &
+				data that ran on the server.
+			</p>
+			<p>
+				As technology evolved, storage has moved to shared resource
+				pools configured in Storage Area Networks (SAN) and Network
+				Attached Storage (NAS). This allows the storage to grow as
+				needed without forcing changes to the server configuration,
+				reducing complexity and cost associated with storage capacity
+				changes.
+			</p>
+			<p>
+				Creating a tiered storage architecture is also common because
+				modern data-hungry applications such as analytics or data mining
+				can be matched to the appropriate storage platform based on
+				their value to the business. For example, a Wall Street trading
+				analytic application may need all-flash storage ($$$$) for
+				performance where the ROI justifies the expense. On the other
+				hand, mining the last two decades of sales data for trends to
+				determine appropriate inventory volume for the next year may be
+				housed on disk storage ($$) due the non-urgent nature of the
+				results.
+			</p>
+:end

@@ -1,0 +1,79 @@
+:def title
+Operating Systems
+:end
+
+
+:def content
+			<p>
+				The operating system(s) [OS] that your company runs (either on
+				premise or in the cloud) is typically driven by the applications
+				your company uses. While smaller companies should strongly
+				consider running a single OS to reduce support costs, medium to
+				large companies often have multiple operating systems running in
+				their environment. This is to accommodate applications that were
+				developed for a server platform does not match their desktop OS.
+				The expense is: for each Operating System you run, you will need
+				to have staff expertise on that OS to maintain normal business
+				service levels.
+			</p>
+			<table>
+				<thead>
+					<tr>
+						<th>Operating System</th>
+						<th>Use</th>
+						<th>Considerations</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Linux</td>
+						<td>
+							Linux is commonly used for backend (data center)
+							applications such as networking infrastructure (DNS,
+							NTP, SNMP, etc.). It also supports a graphic user
+							interface (GUIs) which allows it to be a desktop OS
+							for a small organization to reduce the support
+							footprint.
+						</td>
+						<td>
+							Linux is easier to harden than many other platforms
+							and there are free hardening guides available on the
+							Internet, which makes it a good candidate for edge
+							services.
+						</td>
+					</tr>
+					<tr>
+						<td>UNIX (BSD, AIX, Solaris, etc.)</td>
+						<td>
+							UNIX has historically run on large servers in the
+							data center for applications that need high
+							throughput (high volume transaction processing) or
+							require significant computational resources.
+						</td>
+						<td>
+							Each version of UNIX has different configuration
+							methods and may require a separate support staff.
+						</td>
+					</tr>
+					<tr>
+						<td>Windows</td>
+						<td>
+							Windows was developed as a desktop operating system
+							because the GUI makes it simple for the end-user to
+							find and use the applications they need. The server
+							version was developed to provide integrated
+							authentication and to make it easier for the user to
+							access services such as file, print, and email.
+						</td>
+						<td>
+							As Windows has matured it has added features to run
+							more easily in larger environments. The Office suite
+							of software has also become a common platform for
+							the Information Worker. Small to Medium
+							Organizations (SMORGs) can reduce support costs by
+							running just Windows across their environment.
+						</td>
+					</tr>
+				</tbody>
+			</table>
+:end
