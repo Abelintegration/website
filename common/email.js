@@ -47,10 +47,4 @@
 	document.getElementById('footer-email').addEventListener('click', () => {
 		window.open(link(assemble(105), "Web Inquiry"), '_blank');
 	});
-
-
-	// Developer email
-	document.getElementById('dev-email').addEventListener('click', () => {
-		window.open(link(assemble(116), "From Abelintegration"), '_blank');
-	});
 })();
